@@ -1,0 +1,58 @@
+
+
+.Content
+{
+    background-color: rgba(24, 16, 16, 0.63);
+    display: flex;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.Contact
+{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.Nome {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.email
+{
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.tel
+{
+    padding: 15px;
+    margin-bottom: 15px; 
+    border: 1px solid black;
+}
+
+.comentario
+{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.btn-enviar {
+    margin-top: 2px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+

@@ -1,0 +1,87 @@
+.btn
+{
+    border: 2px solid #8855387c;
+    border-radius: 12px;
+    padding: 2px 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8855387c;
+}
+
+.btn-home{
+
+    font-size: 18px;
+    font-weight: 800px;
+
+}
+
+.btn-home:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+    
+}
+
+.btn-nossas-cervejas
+{
+    font-size: 18px;
+    font-weight: 800px;
+}
+
+.btn-nossas-cervejas:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+}
+
+.btn-contatos
+{
+    font-size: 18px;
+    font-weight: 800px;
+}
+
+.btn-contatos:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+}
+
+.btn-quem-somos
+{
+    font-size: 18px;
+    font-weight: 800px;
+}
+
+.btn-quem-somos:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+}
+
+.btn-fale-conosco
+{
+    font-size: 18px;
+    background-color: WHITE;
+    color: black;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-fale-conosco:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+}
+
+.btn-compra
+{
+    font-size: 18px;
+    font-weight: 800px;
+    cursor: pointer;
+}
+.btn-compra:hover
+{
+    color: #f81b44;
+    background-color: #1bf89c;
+}

@@ -1,0 +1,41 @@
+.footer-geral{
+    background-color: #404040;
+    color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+/*clearfix*/
+.footer-geral::after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.navegacao {
+    float:left;
+    width: 20%;
+}
+
+.logo-footer img{
+    float: right;
+    width: 10%;
+}
+
+
+
+.contato
+{
+    margin-bottom: 8px;
+}
+
+.lista
+{
+    margin-left: 16px;
+    line-height: 28px;
+    list-style: none;
+}
+
+

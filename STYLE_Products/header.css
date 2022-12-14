@@ -1,0 +1,88 @@
+/*clearfix*/
+.header::after
+{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(15, 2, 2, 0.966);
+
+}
+
+.header-nav
+{
+    flex: 90%;
+    flex-grow: 1;
+    margin-top: 20px;
+
+}
+
+.logo{
+    flex: 60%;
+    flex-grow: 1;
+    width: 50px;
+    float: left;
+
+}
+
+.logo img{
+    width: 200px;
+}
+
+.header-nav-lista
+{
+    list-style: none;
+    padding-left: 0%;
+}
+
+.header-nav-itens
+{
+    display: inline;
+    padding: 0 4px; /* o primeiro valor referece 
+    ao eixo y e o segundo faz referÃªncia ao eixo x*/
+}
+
+@media only screen and (max-width:768px)
+{
+
+    .header
+    {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    .header-nav
+    {
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+
+    .logo img
+    {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:500px)
+{
+
+    .header
+    {
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+

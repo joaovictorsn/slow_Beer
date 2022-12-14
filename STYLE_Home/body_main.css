@@ -1,0 +1,158 @@
+/*clearfix*/
+.main::after
+{
+    content: '';
+    clear: both;
+    display:block;
+}
+
+.main-fale-conosco 
+{
+    background-position: center;
+    background-color: rgba(15, 2, 2, 0.966);
+    border-bottom: 2px solid #a5bac5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+ 
+}
+
+.main-fale-conosco-estrutura
+{
+    padding: 24px;
+    position: relative;
+    
+}
+
+
+.main-fale-conosco-destaque
+{
+    
+    color: #fff;
+    font-size: 35px;
+}
+
+.main-fale-conosco-comentário
+{
+    position: center;
+    color: #fff;
+    float:inherit;
+    padding: 0 4px;
+    float:inherit;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+
+/*clearfix*/
+.significado::after
+{
+    content: '';
+    clear: both;
+    display:block;
+}
+
+.significado
+{
+    background-image:url(../Images/img-6ee45eb430909217.jpeg);
+    padding-bottom: 200px;
+    padding-top: 200px;
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.significado-por-letra
+{
+    margin-bottom: 20px;
+    font-size: 35px;
+    padding: 18px;
+    font-style:oblique;
+    list-style:none;
+    text-shadow: 4px 4px 2px black;
+
+}
+
+.significado-por-letra-Simple
+{
+    color: #12583b;
+}
+
+.significado-por-letra-Love
+{
+    color: #f81b44;
+}
+
+.significado-por-letra-Original
+{
+    color: #8351367c;
+}
+
+.significado-por-letra-Wonders
+{
+    color: #fff;
+}
+
+/*conteudo principal do site*/
+
+.main-quemsomos
+{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.main-quemsomos div
+{
+    flex-grow: 1;
+    flex: 50%;
+}
+
+.main-principal-txt
+{
+    background-image: url(../Images/WhatsApp\ Image\ 2022-10-16\ at\ 09.14.16.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 90%;
+
+}
+
+.main-titulo
+{
+    text-align: center;
+}
+
+.main-descricao
+{
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 20px;
+    color:rgb(133, 48, 27);
+    z-index: 99;
+    padding: 5px;
+}
+
+.imagem-garrafa
+{
+    flex: 50%;
+    flex-grow: 1;
+    background-image: url(../Images/WhatsApp\ Image\ 2022-10-16\ at\ 09.14.16\ \(1\).jpeg);
+    background-size: cover;
+}
+
+@media only screen and (max-width:768px)
+{
+    .main-quemsomos
+    {
+        flex-grow: 1;
+        flex-direction: column;
+        
+    }
+}
+
+
+
