@@ -127,13 +127,13 @@
 
 .main-descricao
 {
-    align-items: center;
     font-weight: bold;
     text-align: center;
-    text-indent: 20px;
-    color:rgb(133, 48, 27);
-    z-index: 99;
+    color:rgb(22, 12, 10);
     padding: 5px;
+    background-color: rgb(80, 185, 80);
+    opacity: 80%;
+
 }
 
 .imagem-garrafa
